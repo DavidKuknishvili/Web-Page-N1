@@ -1,0 +1,554 @@
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* margin-top: 39px; */
+    /* padding: 25px 0 63px 0; */
+    /* bottom: 0; */
+    right: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.250in 2.986in 0 2.986in;
+    padding: 25px 0 63px 0;
+
+    /* margin: 0.55in 0.986in 0 0.986in; */
+}
+.ul{
+    display: flex;
+}
+li{
+    margin-left: 30px ;
+}
+.nav_a{
+    color: #697899;
+    opacity: 60%;
+}
+.nav_a:hover{
+    color: #017dfb;
+    transition: 800ms;
+    opacity: 100%;
+
+}
+.nav_a_b{
+    border-radius: 1000px;
+    padding: 20px 40px 20px  40px;
+    background-color: white;
+    box-shadow: 0 0 65px #017efb35;
+    color: #017dfb;
+}
+.first_section_image{
+    width: 100%;
+}
+.first_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.first_container{
+    background-color: #017dfb;
+    height: 153px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.City{
+    display: flex;
+    align-items: center;
+    margin-left: 2.569in;
+    
+}
+.first_inp{
+    
+    width: 100%;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    margin-left: 16px;
+}
+.first_inp::placeholder{
+    color: white;
+    font-size: 16px;
+
+}
+.first_item{
+    display: flex;
+    align-items: center;
+    margin-right: 0.417in;
+    width: 3.247in;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #1b8afb;
+}
+.bn_div{
+    margin-right: 2.569in;
+
+    height: 48px;
+    width: 48px;
+}
+.search{
+    width: inherit;
+    height: inherit;
+    border-radius: 100px;
+    /* padding: 48px; */
+    background: none;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 100px solid #0000002e;
+
+}
+
+
+.title_div{
+    width: 100%;
+    height:170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_title{
+    color: #69789944;
+
+    font-size: 16px;
+}
+.fitrst_image{
+    background-image: url("/Web-Page-N1/img/Imageee.png");
+    background-color: #cccccc;
+    height: 891px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #017dfb;
+}
+
+.fitrst_image button{
+    background: none;
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 186px;
+    height: 51px;
+    border-radius: 100px;
+    color: #017dfb;
+    margin-top: 52px;
+}
+.fitrst_image h1{
+    margin-top: 47px;
+
+}
+.on_image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+    justify-content: center;
+}
+
+
+
+
+.second_main_conatiner{
+    display: flex;
+
+}
+
+
+
+
+.left_first_container{
+    background-image: url(/Web-Page-N1/img/Photo.png);
+    width: 100%;
+    height: 271px;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 29px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left_first_container h1{
+    margin-bottom: 29px;
+    margin-left: 30px;
+}
+.left_container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 555px;
+}
+.left_second_container{
+    background-image: url(/Web-Page-N1/img/Photo1.png);
+
+}
+
+.right_side{
+}
+
+
+.middle_container{
+    background-image: url(/Web-Page-N1/img/Crete.png);
+    width: 770px;
+    height: 573px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex: 2;
+    object-position: center;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 2;
+
+}
+.middle_container h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.middle_container div{
+    display: flex;
+    color: white;
+    font-size: 12px;
+    margin-top: 27px;
+} 
+.middle_container div div{
+    border: 2px solid #fff;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.flights{
+    margin-left: 0px;
+}
+
+
+.right_f{
+    background-image: url(/Web-Page-N1/img/Photo3.png);
+
+}
+.right_s{
+    background-image: url(/Web-Page-N1/img/Photo4.png);
+    
+
+}
+.right_s:hover{
+    background-color: #017efb70;
+}
+
+.main_content{
+    margin: 0px 30px 0px 30px;
+}
+
+.second_bottom_container{
+    display: flex;
+    height: 466px;
+    
+}
+.first_bottom_img{
+    background-image: url(/Web-Page-N1/img/Photo5.png);
+    flex: 1;
+    margin-right: 34px;
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second_bottom_img{
+    background-image: url(/Web-Page-N1/img/Photo6.png);
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second_bottom_container div h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 29px;
+    margin-left: 30px;
+}
+
+
+
+.card{
+    height: 438px;
+    width: 360px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.127);
+}
+.card_img{
+    height: 308px;
+    background-image: url("https://a.cdn-hotels.com/gdcs/production141/d778/6b200721-9661-4680-aca2-d6e33ce46cf0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_title{
+    font-size: 18px;
+    color: #697899;
+}
+.t_s_container{
+    display: flex;
+    flex-direction: column;
+}
+.p_d_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_text_conatainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 27px 24px 0 24px;
+}
+.card_price{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #697899;
+}
+.card_day{
+    color: #6978997b;
+    font-size: 14px;
+
+    font-weight: bold;
+}
+.card_more_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card_more_div div{
+    background-color: white;
+    border-radius: 100px;
+    width: 187px;
+    display: flex;
+    height: 51px;
+    box-shadow: 0 0 68px rgb(0 0 0 / 4%);
+    color: #017dfb;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 23px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 50px 0 50px;
+    flex-wrap: wrap;
+    gap: 29px;
+    row-gap: 50px;
+}
+.view_all_offers{
+    border-radius: 100px;
+    width: 182px;
+    height: 46px;
+    color: #c5c5c5;
+    background: none;
+    border: 2px solid #c5c5c5;
+}
+.all_offer{
+    margin-top: 77px;
+    height: 0px;
+}
+
+
+
+.carousel_div{
+    width: 100%;
+}
+.carousel_img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel_controler button {
+    background: none;
+    border: none;
+    width: 3%;
+}
+.carousel_controler button img{
+    width: 100%;
+}
+.carouserl_texts {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    /* height: 100vh; */
+    margin-top: 331px;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+}
+#one{
+    display: block;
+    justify-content: center;
+    transition: all 900ms ease 0s;
+    display: flex;
+}
+#two{
+    display: block;
+    justify-content: center;
+    transition: all 900ms ease 0s;
+    display: flex;
+}
+
+.left_controler{
+    position: absolute;
+    left: 215px;
+    margin-top: 22%;
+}
+.right_controler{
+    position: absolute;
+    right: 215px;
+    margin-top: 22%;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 267px;
+}
+footer h1{
+    margin-top: 35px;
+    font-size: 18px;
+    color: #bdbdbd;
+}
+.more_burger_li{
+    display: none;
+}
+.more_burger{
+    display: none;
+
+}
+#burger{
+    display: none;
+}
+
+
+@media all and (max-width: 1425px){
+    #burger{
+        display: flex;
+    }
+    .more_burger{
+        display: flex;
+
+        width: 45px;
+        height: 45px;
+        background-color: #017dfb;
+    }
+
+    .ul{
+        width: 100%;
+        top: 100%;
+        left: 0;
+        height: 63vh;
+        background: #ffffff;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 150px;
+        display: none;
+
+    }
+    .active{
+        display: flex;
+        
+    }
+    .nav{
+        margin:8% 8%  0px;
+    }
+    .left_controler{
+        left: 15%;
+        width: 4.3%;
+    }
+    .right_controler{
+        right: 15%;
+        width: 4.3%;
+    }
+    .carouserl_texts{
+        margin-top: 25%;
+    }
+    .carouserl_texts h1 {
+        display: none;
+    }
+}
+@media all and (max-width: 929px){
+
+    .greece_img{
+        width: 59%;
+    }
+    .left_container{
+        width: 100%;
+    }
+    .second_main_conatiner{
+        display: grid;
+    }
+    .left_container{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .middle_container{
+        margin: 20px 0 20px 0;
+        width: 100%;
+    }
+    .first_container{
+        flex-wrap: wrap;
+        height: fit-content;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .City{
+        margin-left: 0;
+    }
+    .first_item{
+        margin-right: 0;
+    }
+    .left_first_container{
+        font-size: 3.9vw;
+    }
+    .first_bottom_img{
+        font-size: 3.9vw;
+
+    }
+    .second_bottom_container div h1{
+        font-size: 3.9vw;
+
+    }
+    .carousel_controler button{
+        width: 8%;
+    }
+}
